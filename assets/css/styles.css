@@ -1,0 +1,66 @@
+/*includes styling for the landing page and general styles for the header, footer, and dark/light themes*/
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 3px;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+body header div {
+    text-align: end;
+}
+
+.container {
+    display:flex;
+    height: 90vh;
+}
+
+h2 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: relative;
+    top: 40%
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+section {
+    align-items: center;
+    width: 50%;
+    padding: 2%;
+    margin:3px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+form {
+    width: 50%;
+    padding: 5%;
+    margin:3px;
+    border: 2px solid black;
+    text-align: left;
+}
+
+
+.display-block {
+    display: block;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+

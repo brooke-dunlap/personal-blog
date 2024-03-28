@@ -1,0 +1,17 @@
+
+
+
+/*Dark Mode*/
+.dark {
+    background-color: rgba(104, 97, 97, 0.637);
+    height: 100vh;
+    color: rgb(241, 230, 230);
+}
+
+/*Light Mode*/
+
+.light {
+    background-color: white;
+    height: 100vh;
+    color: black;
+}
