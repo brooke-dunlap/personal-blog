@@ -1,5 +1,7 @@
-//Script used to toggle between dark and light mode
+//Script for blog page functionality
 
+
+//Light and Dark theme 
 const themeSwitch = document.querySelector('#theme-switcher');
 const container = document.querySelector('.blog-container');
 
@@ -16,4 +18,11 @@ themeSwitch.addEventListener('click', function(){
         container.setAttribute('class', 'light');
         themeSwitch.textContent = '☀️'
     }
+});
+
+//Back button to take user to landing page
+const backButton = document.querySelector('button');
+
+backButton.addEventListener('click', function() {
+    window.location.href = 'index.html';
 });
