@@ -16,10 +16,14 @@ Users have the option of toggling between light and dark mode for the blog page.
 
 If the user would like to input more posts, they can hit the back button, which will take them back to the landing page.
 
+## Link to Site
+
+https://brooke-dunlap.github.io/personal-blog/index.html
 
 ## License
 
 Please refer to the License in the repo.
+
 
 
 
