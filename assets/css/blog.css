@@ -11,3 +11,29 @@
     height: 100vh;
     color: black;
 }
+
+footer {
+    margin: 3px;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+}
+
+button {
+    text-align: end;
+}
+
+article {
+    margin: 3px;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+post {
+    margin: 3px;
+    padding: 2%;
+    border: 2px solid black;
+}
