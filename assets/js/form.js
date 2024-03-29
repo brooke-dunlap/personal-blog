@@ -3,8 +3,8 @@ const title = document.getElementById('title');
 const comment = document.getElementById('comment');
 const submitButton = document.querySelector('button');
 
-submitButton.addEventListener('click', function(event)) {
-    event.preventDefault;
+submitButton.addEventListener('click', function(event) {
+    event.preventDefault();
 
     const blogPost = {
         username: username.value,
@@ -12,19 +12,19 @@ submitButton.addEventListener('click', function(event)) {
         comment: comment.value
     }
 
-    if (!blogPost.username|| !blogPost.title || !blogPost.comment) {
+    if (!blogPost.username || !blogPost.title || !blogPost.comment) {
         alert('Please make sure all fields are filled out.');
         return;
     } 
 
     
+    let posts = [];
 
-    localStorage.setItem('blogPost', JSON.stringify(blogPost));
+    JSON.parse(localStorage.getItem('blogPost'));
+    posts.push(blogPost);
 
-    let posts = JSON.parse(localStorage.getItem('posts')) || [];
-    posts.push(post);
     localStorage.setItem('posts', JSON.stringify(posts));
 
-    window.location.href = 'blog.html';
-};
+    window.location.href ='blog.html';
+});
 
